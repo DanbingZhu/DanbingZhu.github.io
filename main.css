@@ -27,11 +27,11 @@ nav ul li a {
 }
 
 .row {
-
+    color: white;
 }
 
 .col {
-    background: #333;
+    background: #999;
     margin: 1%;
     width: 30%;
     float: left;

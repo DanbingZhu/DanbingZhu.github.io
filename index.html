@@ -5,6 +5,17 @@
     <head>
         <title>Danbing Zhu</title>
         <link href="styles/main.css" rel="stylesheet" type="text/css" />
+        <style>
+            li input {
+                display: none;
+            }
+            li.edit span {
+                display: none;
+            }
+            li.edit input {
+                display: initial;
+            }
+        </style>
     </head>
     
     <body>
@@ -24,16 +35,43 @@
         <h2>This is my homepage</h2>
         <p>Thank you for visiting my site!</p>
 
-        <p>An adder</p>
-
-        <p>
-            <input id="num-one"> + <input id="num-two">
-        </p>
-        <p id="add-sum"></p>
-
         <div class="row">
-            <div class="col">col1</div>
-            <div class="col">col2</div>
+            <div class="col">
+                <p>An adder</p>
+                <p>
+                     <input id="num-one"> + <input id="num-two">
+                </p>
+                <p id="add-sum"></p>
+            </div>
+            <div class="col">
+                <p>Todo List</p>
+                <ul id="todolist">
+                    <li>
+                        <span>Love</span>
+                        <input value="Love" />
+                    </li>
+                    <li>
+                        <span>Miss</span>
+                        <input value="Miss" />
+                    </li>
+                    <li>
+                        <span>E</span>
+                        <input value="E" />
+                    </li>
+                    <li>
+                        <span>More</span>
+                        <input value="More" />
+                    </li>
+                    <li>
+                        <span>Every</span>
+                        <input value="Every" />
+                    </li>
+                    <li>
+                        <span>Day</span>
+                        <input value="Day" />
+                    </li>
+                </ul>
+            </div>
             <div class="col">col3</div>
         </div>
 
@@ -41,6 +79,7 @@
 
         <script src="scripts/main.js"></script>
         <script src="scripts/adder.js"></script>
+        <script src="scripts/checklist.js"></script>
     </body>
 
 </html>
