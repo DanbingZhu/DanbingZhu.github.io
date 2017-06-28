@@ -4,7 +4,12 @@
 <html>
     <head>
         <title>Danbing Zhu</title>
-        <link href="main.css" rel="stylesheet" type="text/css" />
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+        <style>
+        .hide {
+            display: none;
+        }
+        </style>
     </head>
     
     <body>
@@ -16,9 +21,19 @@
             <li><a href="page3.html">My Dog</a></li>
             <li><a href="page4.html">Mom's Garden</a></li>
         </ul>
+        
         <h2>My Girl</h2>
         <p>I am in relationship with a beautiful girl. Her name is Miss.E.</p>
-        <img src="images/we.jpg" width=40%>
+        <ul>
+            <li><a data-img="heart-img" id="heart" href="#"> Heart </li>
+            <li><a data-img="hands-img" id="hands" href="#"> Hand in Hand </li>
+            <li><a data-img="we-img" id="we" href="#"> We </li>
+        </ul>
+        <img class="hide" id="heart-img" src="images/heart.jpeg" width=40%>
+        <img class="hide" id="hands-img" src="images/hands.jpeg" width=40%>
+        <img class="hide" id="we-img" src="images/we.jpg" width=40%>
+
+        <script src="scripts/toggle.js"></script>
     </body>
 
 </html>
