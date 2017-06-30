@@ -20,11 +20,54 @@
                 </ul>
             </nav>
         </header>
-        
+
         <h2>Mom's Garden</h2>
         <p>My mother has a garden right below our balcony. I am sure we don't own the land, but there used to be only weeds down there and mosquitos make the place their home. So, I think my mother is doing something good for the community while it is also illegal.</p>
 
+        <button id="tomato-btn">tomato</button>
+        <button id="eggplant-btn">eggplant</button>
+        <button id="corn-btn">corn</button>
+        <button id="cucumber-btn">cucumber</button>
+
+        <div id="tomato-content">
+            tomato content.
+        </div>
+
+        <div id="eggplant-content">
+            eggplant content.
+        </div>
+
+        <div id="corn-content">
+            corn content.
+        </div>
+
+        <div id="cucumber-content">
+            cucumber content.
+        </div>
+
         <footer></footer>
+
+        <script src="jquery/jquery-3.2.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#tomato-btn').on('click',function() {
+                    $('#tomato-content').fadeToggle();
+                });
+
+                $('#eggplant-btn').on('click',function() {
+                    $('#eggplant-content').fadeToggle();
+                });
+
+                $('#corn-btn').on('click',function() {
+                    $('#corn-content').fadeToggle();
+                });
+
+                $('#cucumber-btn').on('click',function() {
+                    $('#cucumber-content').fadeToggle();
+                });
+                
+            });
+        </script>
     </body>
 
 
