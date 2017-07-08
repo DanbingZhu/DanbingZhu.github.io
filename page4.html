@@ -31,6 +31,12 @@
 
         <div id="tomato-content">
             tomato content.
+            <div id="slider">
+                <ul class="slides">
+                    <li class="slide"><img src="images/tomato_1.jpg" width="400"/></li>
+                    <li class="slide"><img src="images/tomato_2.jpg" width="400"/></li>
+                </ul>
+            </div>
         </div>
 
         <div id="eggplant-content">
@@ -39,6 +45,12 @@
 
         <div id="corn-content">
             corn content.
+            <div id="slider">
+                <ul class="slides">
+                    <li class="slide"><img src="images/corn_1.jpg" width="400"/></li>
+                    <li class="slide"><img src="images/corn_2.jpg" width="400"/></li>
+                </ul>
+            </div>
         </div>
 
         <div id="cucumber-content">
@@ -48,26 +60,7 @@
         <footer></footer>
 
         <script src="jquery/jquery-3.2.1.js"></script>
-        <script>
-            $(document).ready(function() {
-                $('#tomato-btn').on('click',function() {
-                    $('#tomato-content').fadeToggle();
-                });
-
-                $('#eggplant-btn').on('click',function() {
-                    $('#eggplant-content').fadeToggle();
-                });
-
-                $('#corn-btn').on('click',function() {
-                    $('#corn-content').fadeToggle();
-                });
-
-                $('#cucumber-btn').on('click',function() {
-                    $('#cucumber-content').fadeToggle();
-                });
-                
-            });
-        </script>
+        <script src="scripts/garden.js"></script>
     </body>
 
 
