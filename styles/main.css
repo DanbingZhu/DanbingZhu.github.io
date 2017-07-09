@@ -42,7 +42,7 @@ footer {
 }
 
 #slider {
-    width: 720px;
+    width: 400px;
     height: 400px;
     overflow: hidden;
 }
@@ -57,6 +57,6 @@ footer {
 
 #slider .slide {
     float: left;
-    width: 720px;
+    width: 400px;
     height: 400px;
 }
