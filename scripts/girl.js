@@ -38,6 +38,9 @@ $(function() {
 		function showNextPanel() {
 			$(this).removeClass('active');
 
+			$('.hide').each(function(){
+				$(this).hide();
+			});
 			$('#'+panelToShow).slideDown(300, function() {
 				$(this).addClass('active');
 			});
