@@ -1,21 +1,11 @@
 'use strict';
 
 $(document).ready(function() {
-    $('#tomato-btn').on('click',function() {
-        $('#tomato-content').fadeToggle();
+    $('.btn').on('click',function() {
+        var contentId = $(this).attr('contentId');
+        $('#'+contentId).fadeToggle();
     });
 
-    $('#eggplant-btn').on('click',function() {
-        $('#eggplant-content').fadeToggle();
-    });
-
-    $('#corn-btn').on('click',function() {
-        $('#corn-content').fadeToggle();
-    });
-
-    $('#cucumber-btn').on('click',function() {
-        $('#cucumber-content').fadeToggle();
-    });
 });
 
 $(function() {

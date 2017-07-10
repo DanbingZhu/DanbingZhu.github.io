@@ -27,17 +27,90 @@
         </header>
 
         <h2>My Girl</h2>
-        <p>I am in relationship with a beautiful girl. Her name is Miss.E.</p>
+
+        <p>I am in relationship with a very beautiful girl. Her name is Miss.E.</p>
+
         <ul>
-            <li><a data-img="heart-img" id="heart" href="#">Heart</li>
-            <li><a data-img="hands-img" id="hands" href="#">Hand in Hand</li>
-            <li><a data-img="we-img" id="we" href="#">We</li>
+            <li><a data-img="heart-img" id="heart" href="#">Heart</a></li>
+            <li><a data-img="hands-img" id="hands" href="#">Hand in Hand</a></li>
+            <li><a data-img="we-img" id="we" href="#">We</a></li>
         </ul>
+
         <img class="hide" id="heart-img" src="images/heart.jpeg" width=40%>
         <img class="hide" id="hands-img" src="images/hands.jpeg" width=40%>
         <img class="hide" id="we-img" src="images/we.jpg" width=40%>
 
-        <script src="scripts/toggle.js"></script>
+        <h2>Time We Spent Together</h2>
+
+        <div class="tab-panels">
+            <ul class="tabs">
+                <li rel="panel1" class="active">Nov 2rd, 2013</li>
+                <li rel="panel2">June 23rd, 2017</li>
+                <li rel="panel3">June 24th, 2017</li>
+                <li rel="panel4">June 25th, 2017</li>
+                <li rel="panel5">July 1st, 2017</li>
+                <li rel="panel6">July 2nd, 2017</li>
+                <li rel="panel7">July 5th, 2017</li>
+            </ul>
+
+            <div id="panel1" class="panel active">
+                <p><a data-img="moment-img-110213" id="moment-110213" href="#" class="btn">Moments, Shanghai</a></p>
+                <p>We went to Qi Bao that day</p>
+                <p><a data-img="food-img-110213" id="food-110213" href="#" class="btn">Food</a></p>
+                <p>We went to eat Kyushu Ramen the following Sunday</p>
+            </div>
+
+            <div id="panel2" class="panel">
+                <p><a data-img="moment-img-062317" id="moment-062317" href="#" class="btn">Moments, Nanjing</a></p>
+                <p>We went to the Confucius Temple and Qinhuaihe River</p>
+                <p><a data-img="food-img-062317" id="food-062317" href="#" class="btn">Food</a></p>
+                <p>We ate at a Cantoness eatery</p>
+            </div>
+
+            <div id="panel3" class="panel">
+                <p><a data-img="moment-img-062417" id="moment-062417" href="#" class="btn">Moments, Nanjing</a></p>
+                <p>Had a meeting in the morning</p>
+                <p><a data-img="food-img-062417" id="food-062417" href="#" class="btn">Food</a></p>
+                <p>Pizza</p>
+            </div>
+
+            <div id="panel4" class="panel">
+                <p><a data-img="moment-img-062517" id="moment-062517" href="#" class="btn">Moments, Nanjing</a></p>
+                <p>Transformer</p>
+                <p><a data-img="food-img-062517" id="food-062517" href="#" class="btn">Food</a></p>
+                <p>Xian Yu Xian</p>
+            </div>
+
+            <div id="panel5" class="panel">
+                <p><a data-img="moment-img-070117" id="moment-070117" href="#" class="btn">Moments, Nanjing</a></p>
+                <p>Xuan Wu Lake Park</p>
+                <p><a data-img="food-img-070117" id="food-070117" href="#" class="btn">Food</a></p>
+                <p>Vietman resturant</p>
+            </div>
+
+            <div id="panel6" class="panel">
+                <p><a data-img="moment-img-070217" id="moment-070217" href="#" class="btn">Moments, Nanjing</a></p>
+                <p>Lao Shan Forest Park</p>
+                <p><a data-img="food-img-070217" id="food-070217" href="#" class="btn">Food</a></p>
+                <p>Chicken wings</p>
+            </div>
+
+            <div id="panel7" class="panel">
+                <p><a data-img="moment-img-070517" id="moment-070517" href="#" class="btn">Moments, Shanghai</a></p>
+                <p>Pu Dong International Airport(PVG)</p>
+                <p><a data-img="food-img-070517" id="food-070517" href="#" class="btn">Food</a></p>
+                <p>Duck and shrimp</p>
+            </div>
+        </div>
+
+        <img class="hide" id="moment-img-110213" src="images/qibao.PNG" width=40%>
+
+
+
+        <p class="hide" id="text1"> Shanghai </p>
+
+        <script src="jquery/jquery-3.2.1.js"></script>
+        <script src="scripts/girl.js"></script>
     </body>
 
 </html>
