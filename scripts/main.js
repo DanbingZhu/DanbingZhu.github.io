@@ -7,7 +7,7 @@ function printTime(){
 	console.log(seconds);
 	var clock = document.getElementById("clock");
 	console.log(clock);
-	clock.innerHTML = "Pacific Time: " + hours+":"+minutes+":"+seconds;
+	clock.innerHTML = "Beijing: " + ((hours + 15)%24) +":"+minutes+":"+seconds + "<br/>" + "Pacific Time: " + hours+":"+minutes+":"+seconds;
 }
 
 setInterval("printTime()", 1000);
