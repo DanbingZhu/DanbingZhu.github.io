@@ -15,12 +15,27 @@
 
         <h2>Works</h2>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Programmed image processing software for real-time pupil tracking using OpenCV 3 with Python 2.7 binding</li>
+                <li>Integrated the pupil tarcking software with the mechanical part driven by servo motors</li>
+                <li>Improved the performance of the system by using hardware PWM and IR lighting</li>
             </ul>
 
+        <h2>Infrared</h2>
+        One interesting thing I noticed during the project is that by using IR light source and a camera without IR filter, we will be able to highlight the pupil and make it easier to locate the eye center.
+
+        <div>
+            <img src="../images/IR.png" width="270" />
+        </div>
+
+        <h2>Raspberry Pi 3 PWM</h2>
+        PWM is used to control the servo motors. We used some random GPIO to do the PWM work at first and we suffered the jittering problem. The reason is things like interupts will vary the duty cycle of the PWM wave. To avoid that, we used two dedicated PWM ports on Raspberry Pi. 
+
         <h2>Results</h2>
+        The video shown below was not the best result we got, because we were not using IR lighting in this record. And please kindly ignore the backgroud music :).
+
+        <div>
+        <iframe width="480" height="270" src="https://www.youtube.com/embed/QUtSwiUAvns" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <a href="../page5.html">Back</a>
     </body>
